@@ -55,7 +55,7 @@ it.
    your work. Can I switch it back to Public?"
 2. On yes: `bash <skill folder>/scripts/checkup.sh make-public`.
 3. `RESULT=public` or `already-public`: tell them it's Public again and give
-   the link `https://github.com/<GH_USER>/claude-code-for-pms-final`.
+   the link `https://github.com/<GH_USER>/claude-code-for-pms-final-3`.
    `RESULT=failed`: post in Slack with the `ERROR` line and Mac or Windows.
 
 If `CHECK_PUBLIC=pass` and the instructor still can't see the work, it
@@ -100,9 +100,9 @@ something like their home folder, a module folder, or an old unzipped copy of
 the course.
 
 Fix: "This session is open on the wrong folder. In the Claude app, go to the
-Code tab, click + New session, choose <home folder>/claude-code-for-pms-final
+Code tab, click + New session, choose <home folder>/claude-code-for-pms-final-3
 as the Project folder, and type: check my setup." Write the path the way their
-computer shows paths. If `claude-code-for-pms-final` doesn't exist in their
+computer shows paths. If `claude-code-for-pms-final-3` doesn't exist in their
 home folder, they need to paste the course setup prompt (the one-line prompt
 from their pre-class materials; see first-time-setup.md).
 
@@ -132,14 +132,14 @@ Fix: "This folder is linked to the course template instead of your own
 GitHub repo. Open a new session on any other folder (your Documents folder is
 fine), paste the course setup prompt (the one-line prompt from your
 pre-class materials), and follow it. It will set the old
-folder aside as claude-code-for-pms-final-old and give you a fresh one linked
+folder aside as claude-code-for-pms-final-3-old and give you a fresh one linked
 to your repo."
 
 When they come back in the new course folder and `OLD_FOLDER=yes` (a
-`claude-code-for-pms-final-old` folder sits next to it), copy their work
+`claude-code-for-pms-final-3-old` folder sits next to it), copy their work
 across for them:
 
-1. Say: "Your earlier work is in claude-code-for-pms-final-old. Can I copy
+1. Say: "Your earlier work is in claude-code-for-pms-final-3-old. Can I copy
    it into your course folder? If a file is in both places, I'll keep both
    copies, and I won't change the old folder."
 2. On yes: `bash <skill folder>/scripts/copy-in.sh "<course folder>-old"`,
@@ -153,10 +153,10 @@ across for them:
 git says "Repository not found".
 
 1. If `SIGNED_IN=yes`, check the student's repo exists:
-   `<gh> repo view <GH_USER>/claude-code-for-pms-final --json url`.
+   `<gh> repo view <GH_USER>/claude-code-for-pms-final-3 --json url`.
 2. It exists, and this folder is otherwise the course folder: with the
    student's OK, point the folder at it:
-   `git remote set-url origin https://github.com/<GH_USER>/claude-code-for-pms-final.git`
+   `git remote set-url origin https://github.com/<GH_USER>/claude-code-for-pms-final-3.git`
    (or `git remote add origin …` if there's none). Then run
    `scripts/save.sh`, which merges anything already on GitHub.
 3. It doesn't exist, or they signed in with a different account than the one
@@ -200,7 +200,7 @@ sign-in first ("GitHub tool missing or not signed in").
 
 A file or folder blocks setup: a half-finished file or leftover copy in the
 course folder, or something outside it (for example, a leftover
-`claude-code-for-pms-final` that isn't their course folder). Outside the
+`claude-code-for-pms-final-3` that isn't their course folder). Outside the
 course folder, rename only the thing that blocks setup, and only by adding
 `-old` to its name.
 

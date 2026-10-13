@@ -24,6 +24,12 @@ prompt library built from your own questions.
 
 ### 1.
 
+Are there any gaps or conflicts between any of these docs worth calling out?
+
 ### 2.
 
+is there anything in any of these docs alluding to the issues we've been experiencing yet?
+
 ### 3.
+
+Based on this information, what should my next steps be to a) get up to speed quicker, b) understand what might be happening post 4.2

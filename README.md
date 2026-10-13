@@ -10,9 +10,9 @@ this workspace is a fictional teaching scenario — it's not a real company.
    materials) into Claude Code and follow along. Claude gets the setup steps
    from setup/SETUP.md in this course. Setup makes your own copy of this
    course on GitHub and puts it on your computer, in a folder called
-   claude-code-for-pms-final. Your copy on GitHub is Public. Keep it that way
+   claude-code-for-pms-final-3. Your copy on GitHub is Public. Keep it that way
    until the course ends, so your instructor can see your work.
-2. In the Claude app, start a new session on the claude-code-for-pms-final
+2. In the Claude app, start a new session on the claude-code-for-pms-final-3
    folder and type: check my setup
 3. At the end of each module, type: wrap up
 

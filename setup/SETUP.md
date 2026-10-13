@@ -37,12 +37,12 @@ Step 3: Sign me in to GitHub.
   Get my private GitHub email with: GH api user --jq '"\(.id)+\(.login)@users.noreply.github.com"'
 
 Step 4: Get my course repo.
-The course folder on this computer is claude-code-for-pms-final in my home folder. My repo on GitHub is <my username>/claude-code-for-pms-final.
+The course folder on this computer is claude-code-for-pms-final-3 in my home folder. My repo on GitHub is <my username>/claude-code-for-pms-final-3.
 - If the course folder already exists, is a git repo, and its origin is my GitHub repo, skip to step 5.
-- If the course folder exists but is something else, rename it to claude-code-for-pms-final-old first.
-- If my repo already exists on GitHub (check with GH repo view <my username>/claude-code-for-pms-final), clone it into the course folder.
+- If the course folder exists but is something else, rename it to claude-code-for-pms-final-3-old first.
+- If my repo already exists on GitHub (check with GH repo view <my username>/claude-code-for-pms-final-3), clone it into the course folder.
 - Otherwise, from my home folder, create it from the course template and clone it:
-    GH repo create claude-code-for-pms-final --template Product-School-Platform/claude-code-for-pms-template --public --clone
+    GH repo create claude-code-for-pms-final-3 --template Product-School-Platform/claude-code-for-pms-template --public --clone
   If the repo gets created but the clone fails, wait 10 seconds (GitHub can take a moment to finish copying the template) and clone it into the course folder.
 
 Step 5: Connect this folder to my GitHub sign-in.
@@ -57,7 +57,7 @@ Show me this checklist, with a check mark or an X on each line:
 - GitHub tool installed
 - Signed in to GitHub as <my username>
 - This folder saves to GitHub using that sign-in (nothing else on my computer was changed)
-- My repo on GitHub: https://github.com/<my username>/claude-code-for-pms-final
+- My repo on GitHub: https://github.com/<my username>/claude-code-for-pms-final-3
 - My course folder on this computer: <its full path, written the way my computer shows paths>
 If anything has an X, tell me what to post in my course Slack channel, as described in the rules.
 If everything has a check mark, tell me word for word: "One step left. In the Claude app, go to the Code tab, click + New session, choose <full path of my course folder> as the Project folder, and type: check my setup. If Claude asks whether you trust this folder, or whether to allow the rook-wiki and rook-database servers, say yes."

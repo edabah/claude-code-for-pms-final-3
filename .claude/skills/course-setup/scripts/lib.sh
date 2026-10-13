@@ -2,7 +2,7 @@
 # Must work in bash 3.2 (Mac) and Git Bash (Windows): no associative arrays,
 # no ${var,,}, no realpath or readlink -f.
 
-COURSE_REPO_NAME=claude-code-for-pms-final
+COURSE_REPO_NAME=claude-code-for-pms-final-3
 TEMPLATE_REPO_NAME=claude-code-for-pms-template
 TEMPLATE_URL=https://github.com/Product-School-Platform/claude-code-for-pms-template.git
 SETUP_GH_VERSION=2.101.0   # the version setup/SETUP.md (setup v2.0) installs into ~/.ccpm/gh

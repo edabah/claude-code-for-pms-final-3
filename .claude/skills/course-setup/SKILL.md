@@ -7,7 +7,7 @@ description: Checks, saves and repairs a student's setup for the Claude Code for
 
 You're helping a student in Product School's "Claude Code for PMs" course. They
 aren't technical. Their course folder is a copy of their own GitHub repo,
-`<their username>/claude-code-for-pms-final`, which the course setup (the
+`<their username>/claude-code-for-pms-final-3`, which the course setup (the
 steps in `setup/SETUP.md`) created before this session. This skill checks that setup, saves their work, and
 repairs common problems.
 
@@ -139,7 +139,7 @@ For checks 4 and 5:
 ```
 
 If the checkup said `OLD_FOLDER=yes`, the student has earlier work in
-`claude-code-for-pms-final-old`: offer to copy it in (troubleshooting,
+`claude-code-for-pms-final-3-old`: offer to copy it in (troubleshooting,
 "Linked to the course template").
 
 - All ✓: "You're all set. You're ready for Module 1."
@@ -161,7 +161,7 @@ are in `references/saving-work.md`. In short:
 3. Pick a short plain message from what changed, like "Module 2 work".
 4. `bash <skill folder>/scripts/save.sh "<message>"`.
 5. `RESULT=saved`: tell them their work is saved to GitHub and give the link
-   `https://github.com/<GH_USER>/claude-code-for-pms-final`.
+   `https://github.com/<GH_USER>/claude-code-for-pms-final-3`.
    `COMMITTED=nothing-new` with `RESULT=saved` means everything was already
    saved; say so.
    Anything else: follow `references/saving-work.md`.

@@ -15,8 +15,8 @@ steps from `setup/SETUP.md` (setup v2.0) and follows them:
 3. Signs the student in to GitHub in their web browser, with a one-time code.
    gh remembers the sign-in. If the computer was already signed in, it asks
    the student to confirm that's their own account, not an employer's.
-4. Creates their own public repo, `<username>/claude-code-for-pms-final`, from
-   the course template, and copies it to `claude-code-for-pms-final` in their
+4. Creates their own public repo, `<username>/claude-code-for-pms-final-3`, from
+   the course template, and copies it to `claude-code-for-pms-final-3` in their
    home folder.
 5. Connects that folder only to their GitHub sign-in: their name, a private
    GitHub email (so their personal email stays off their work), and git's

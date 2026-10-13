@@ -46,6 +46,6 @@ A short checklist, then the link:
 
 ✓ Saved your prompts to <module folder>/prompts.md (how many)
 ✓ Added what we learned today to CLAUDE.md
-✓ Saved to GitHub: https://github.com/<their username>/claude-code-for-pms-final
+✓ Saved to GitHub: https://github.com/<their username>/claude-code-for-pms-final-3
 
 If a step didn't work, mark it ✗ and give the fix in one plain sentence. If saving to GitHub failed, tell them their prompts and notes are safe on this computer and what to do next, per the save routine.

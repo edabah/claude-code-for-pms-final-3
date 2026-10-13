@@ -21,7 +21,7 @@ and they can pick up on any computer.
      (for example, the student edited a file on the GitHub website), brings
      those in with a merge and pushes again.
 4. Tell the student the result in one or two sentences, with the link
-   `https://github.com/<username>/claude-code-for-pms-final`.
+   `https://github.com/<username>/claude-code-for-pms-final-3`.
 
 ## What the results mean
 
@@ -56,4 +56,4 @@ can't lose anything.
 
 - Never force-push, reset, or rebase the student's work.
 - Never use `git stash` or `git clean` as a shortcut.
-- Never save to any repo other than `<username>/claude-code-for-pms-final`.
+- Never save to any repo other than `<username>/claude-code-for-pms-final-3`.
